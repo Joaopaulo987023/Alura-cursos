@@ -1,9 +1,8 @@
 function tocaSom(idSom){
     const elemento=document.querySelector(idSom).play
 
-    elemento === null ? console.log('erro'):console.log('ok');
+    elemento === null ? console.log('erro') : console.log('ok');
 };
-
 
 const listaDeBotoes = document.querySelectorAll('.tecla');
 
